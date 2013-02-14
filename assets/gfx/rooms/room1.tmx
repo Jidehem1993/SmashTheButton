@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="gravity" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="Smash" tilewidth="32" tileheight="32">
+  <image source="tilesets/floor.png" width="160" height="32"/>
+ </tileset>
+ <tileset firstgid="9" name="floor" tilewidth="32" tileheight="32">
+  <image source="tilesets/floor.png" width="160" height="32"/>
+ </tileset>
+ <layer name="Room" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdMBLA2NTj41MDkGomIT9g8w8LnTCpgBw/UBPQww50MGoHaXbw0NgOWptPT8CEhpmpgNHNBMUJK41pAGR5AYE=
+  </data>
+ </layer>
+ <objectgroup name="Sliders" width="25" height="15">
+  <object name="Slide" type="Reverse" x="130" y="417" width="542" height="31"/>
+ </objectgroup>
+ <objectgroup name="Sproutchers" width="25" height="15">
+  <object name="Sproutch1" type="Sproutcher" x="415" y="127" width="96" height="32"/>
+ </objectgroup>
+</map>
